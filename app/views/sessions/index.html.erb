@@ -1,20 +1,20 @@
 <div class="welcome">
   <div class="intro">
-    <h1>trumblr.</h>
-    <p><font size="3">come for what you seek.<br>stay for what you find.</font></p>
-    <div>
+    <h1>trumblr.</h1>
+    <h5>come for what you seek.<br>stay for what you find.</h5>
+    <div><br>
       <% if !user_signed_in? %>
         <%= link_to "Get Started", new_user_registration_path, class: "btn btn-primary" %>
-      <% end %><br>
+      <% end %><br><br>
     </div>
     <div>
       <% if user_signed_in? %></p>
         <%= link_to "Make Post", new_post_path, class: "btn btn-primary" %>
       <% end %>
     </div><br>
-    <h>What? Where? Who?</h3>
-    <p><font size="3">Trumbler is your expressions and thought.</font></p>
-    <p><font size="3">It's what you make it. Blog, share and comment.</font></p>
-    <p><font size="3">Join the Trumbler community.</font></p>
+    <h2>What? Where? Who?</h2>
+    <p>Trumbler is your expressions and thought.</p>
+    <p>It's what you make it. Blog, share and comment.</p>
+    <p>Join the Trumbler community.</p>
   </div>
 </div>

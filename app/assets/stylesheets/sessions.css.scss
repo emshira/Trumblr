@@ -1,0 +1,19 @@
+// STYLING FOR SESSION/WELCOME PAGE
+
+.welcome{
+  background-image: url(image_path("background.jpg"));
+  background-size: cover;
+  background-attachment: fixed;
+	background-repeat: no-repeat;
+  width: 100%;
+  height: 900px;
+  min-height: 100vh;
+}
+
+.intro {
+  color: white;
+  text-align: center;
+  padding-left: 300px;
+  padding-top: 150px;
+
+}

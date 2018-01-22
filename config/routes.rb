@@ -5,7 +5,9 @@ Rails.application.routes.draw do
     resources :comments
  end
 
-  root "posts#index"
+  # root "posts#index"
+  root "sessions#index"
+  
 
   get '/about', to: 'pages#about'
 

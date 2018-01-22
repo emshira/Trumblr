@@ -17,6 +17,7 @@
 
  html, body {
  	font-family: 'PT Sans Narrow', sans-serif;
+  margin: none;
  }
 
  h1, h2, h3, h4, h5, h6 {
@@ -44,8 +45,8 @@
  		padding-right: 3em;
  		.category {
  			font-weight: 900;
- 			font-size: 2.5em;
- 			text-transform: uppercase;
+ 			font-size: 2.0em;
+ 			text-transform: lowercase;
  			color: #22747b;
  		}
  		li {
@@ -104,6 +105,7 @@
  		border-bottom: 1px solid #b8e2fe;
  		background: #529FCD;
  		color: #FFF;
+
  		p {
  			display: inline;
  		}
@@ -261,3 +263,8 @@
  		}
  	}
  }
+
+.sign_in {
+  line-height: 0;
+  margin-bottom: 0;
+}

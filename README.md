@@ -1,24 +1,19 @@
-# README
+# trumblr
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Tumblr hybrid; a cross between blogging and social networking. A user signs up and log in to use the site as their own Tumbler-like account, someone who isn’t logged in, is a reader at the website.
 
-Things you may want to cover:
+Create post with Post validation for logged in user, ability to edit and delete post for logged in user, submit and delete comments, Complete CRUD, user sign up with Authentication/log in/log out, static page (About Blogger)
 
-* Ruby version
+* Technology used: html, scss and normalize, gems: devise, bootstrap
 
-* System dependencies
+===Author and Contributors: N. Emery===
 
-* Configuration
+===Version information===
 
-* Database creation
+* Rails version: 5.1.4
 
-* Database initialization
+* Ruby version: 2.4.2
 
-* How to run the test suite
+===
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Deployment instructions: go to
